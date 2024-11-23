@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSPublisher", "SQSPublisher\SQSPublisher.csproj", "{8E394883-5EEF-4D01-BE0C-11175E5C1C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSPublisher", "SQSPublisher\SQSPublisher.csproj", "{8E394883-5EEF-4D01-BE0C-11175E5C1C55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQS", "SQS", "{C611C331-96DB-410F-88F7-5E19BECFF0D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSConsumer", "SQSConsumer\SQSConsumer.csproj", "{D7777981-508C-4B7C-8191-FED0B8D16184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSConsumer", "SQSConsumer\SQSConsumer.csproj", "{D7777981-508C-4B7C-8191-FED0B8D16184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSWebAPI.Publisher", "SQSWebAPI.Publisher\SQSWebAPI.Publisher.csproj", "{CBAE8FD5-3029-4C01-8A74-E3BF91656B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSWebAPI.Consumer", "SQSWebAPI.Consumer\SQSWebAPI.Consumer.csproj", "{E3E9DABC-961C-4CD9-9AF0-CAABABD33615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{D7777981-508C-4B7C-8191-FED0B8D16184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7777981-508C-4B7C-8191-FED0B8D16184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7777981-508C-4B7C-8191-FED0B8D16184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAE8FD5-3029-4C01-8A74-E3BF91656B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAE8FD5-3029-4C01-8A74-E3BF91656B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAE8FD5-3029-4C01-8A74-E3BF91656B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAE8FD5-3029-4C01-8A74-E3BF91656B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E9DABC-961C-4CD9-9AF0-CAABABD33615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E9DABC-961C-4CD9-9AF0-CAABABD33615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E9DABC-961C-4CD9-9AF0-CAABABD33615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E9DABC-961C-4CD9-9AF0-CAABABD33615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8E394883-5EEF-4D01-BE0C-11175E5C1C55} = {C611C331-96DB-410F-88F7-5E19BECFF0D6}
 		{D7777981-508C-4B7C-8191-FED0B8D16184} = {C611C331-96DB-410F-88F7-5E19BECFF0D6}
+		{CBAE8FD5-3029-4C01-8A74-E3BF91656B8A} = {C611C331-96DB-410F-88F7-5E19BECFF0D6}
+		{E3E9DABC-961C-4CD9-9AF0-CAABABD33615} = {C611C331-96DB-410F-88F7-5E19BECFF0D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBE407C5-FCC6-40B3-87DE-56223A4D3A50}
